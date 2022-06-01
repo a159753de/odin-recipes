@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  background-color: bisque;
+  padding: 20px;
+  font-size: 42px;
+  text-align: center;
+}
+
+div.image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div.image .color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: wheat;
+  width: 100%;
+}
+
+div.image .color p {
+  margin-top: 2.5rem;
+  font-size: large;
+}
+
+div.image .color ul {
+  margin-top: 2.5rem;
+}
+
+div.image .color ul li {
+  font-size: large;
+  padding: 1rem;
+}
+
+section.steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.steps h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section.steps ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: antiquewhite;
+  width: 100%;
+}
+
+section.steps ol li {
+  font-size: 1.5rem;
+  width: 300px;
+  padding: 16px;
+  margin: 36px;
+}
+
+ul li {
+  list-style: none;
+  color: lightcoral;
+}
+
+footer {
+  background-color: sandybrown;
+  text-align: center;
+  padding: 26px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #076330;
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */
